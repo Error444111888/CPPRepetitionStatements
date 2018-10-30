@@ -77,14 +77,61 @@ int main()
 		cin.get();
 
 
+		// Example
+
+		int BTC{ 2 };
+		int LTC{ 0 };
+
+		if (LTC > 3)
+
+		{
+			BTC++;
+		}
+
+		else
+		{
+			BTC--;
+		}
+
+		for (int NMC{ 0 }; NMC < LTC; NMC++)
+		{
+			std::cout << NMC << std::endl;
+		}
+
+		while (LTC < 4)
+		{
+			int BCH{ 2 };
+			LTC += BCH;
+		}
+
+		BTC = LTC++;
+		BTC = ++LTC;
+
+		switch (BTC)
+		{
+		case 4:
+			std::cout << "BTC is four" << std::endl;
+			break;
+		case 5:
+			std::cout << "BTC is five" << std::endl;
+			break;
+		case 6:
+			std::cout << "BTC is six" << std::endl;
+			break;
+		default:
+			std::cout << "BTC is less than 4 or more than 6" << std::endl;
+			break;
+
+			// Conditional Expression
+			BTC = (LTC > 5) ? 5 : 10;
+
+			return 0;
+
+		}
 
 
 
 	}
-
-
-
-
 
 
 
